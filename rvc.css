@@ -1,0 +1,1300 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+header, main, nav, footer, figure, figcaption, aside, section, article {
+    display:block; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navgrad{
+    z-index : 4; 
+    height: 6vw;
+    width: 15%;
+    float:left;
+    position: fixed;
+    top: 0;
+    margin-left: -10px;
+    background-image: linear-gradient(to right,#FFFFFF, #001F48);
+}
+.navlogo {
+    z-index : 4; 
+    background-image: url(rvclogo4.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    float: left;
+    height: 6vw;
+    margin-left: 2vw;
+    
+}
+
+body {
+    font-size: 1em;
+    background-image: linear-gradient(to bottom,#FFFFFF, #001F48);
+    font-family: Raleway, sans-serif;
+}
+
+#wrapper {
+    margin-top: 1%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #FFFFFF;
+}
+
+p { 
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav {
+    z-index : 4; 
+   font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    right: .2%;
+    height: 6vw;
+    width: 85%;
+    text-align: center;
+    background-color: #001F48;
+    font-weight: bold;
+}
+nav ul {margin-left: -13vw;}
+#titleHero{
+    font-size: 400%;
+    letter-spacing: 0.35em;
+    font-weight: bolder;
+    margin-top: 0.75em;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 3px #a38901;
+   
+
+}
+
+
+#divWelcomeParagraph span2 {
+    font-size: 200%;
+    color: #003366;
+}
+
+#divWelcomeParagraph {
+    height: 150px;
+    width: 100%;
+    color: #000000;
+    padding: 10px;
+}
+
+#divWelcomeParagraph span {
+    font-size: 150%;
+    color: #003366;
+}
+
+nav select {
+    display: none;
+}
+
+nav a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div {
+    font-size: 1em;
+}
+
+ h1 {
+    color: #001F48;
+}
+
+nav ul li {
+    color: #FFFFFF;
+    font-size: 2.25vw;
+
+    padding-right: 1.2%;
+    padding-left: 1.2%;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;  
+    clear: both;
+border-right: 3px solid #FFFFFF;
+}
+nav ul li2 {
+    color: #FFFFFF;
+    font-size: 2.25vw;
+
+    padding-right: 1.2%;
+    padding-left: 1.2%;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;  
+    clear: both;
+}
+
+.container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container1 {
+    display: inline-block;
+    background-image: url("img/pic30.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vw;
+    margin-top: 2%;
+}
+
+#studentStory1 {
+    width: 100%;
+    height: 500px;
+}
+
+#studentTestemonials {
+    padding-top: 5px;
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+#studentStory1left {
+    display: inline-block;
+    background-image: url("img/pic27-N.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height: 500px;
+	max-height: 100%;
+	max-width: 100%;	
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 1%;
+	float: left;
+     
+}
+
+#studentStory1right {
+	display: inline-block;
+    width: 50%;
+    height: 200px;
+	float: right; 
+}
+#studentStory2 {
+    clear: both;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+#studentStory2left {
+	display: inline-block;
+    width: 50%;
+    height: 200px;
+	float: left;  
+}
+
+#studentStory2right {
+    display: inline-block;
+    background-image: url("img/pic40.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height: 16vw;
+	max-height: 100%;
+	max-width: 100%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 1%;
+	float: right;
+}
+
+#studentStory3 {
+    width: 100%;
+    height: 400px;
+    clear: both;
+}
+
+#studentStory3left {
+	display: inline-block;
+    width: 50%;
+    height: 300px;
+	float: left;  
+}
+
+#studentStory3right {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height: 300px;	
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 1%;
+	float: right;
+}
+
+#studentStoryG {
+    font-size: 200%;
+    font-weight: bold;
+    color: #001F48;
+}
+
+#lowerParagraph {
+    clear: both;
+    width: 100%;
+    padding: 5px;
+    height: 150px;  
+}
+
+#dividerSection {
+/*    height: 15px;*/
+    width: 80%;
+/*    background-color: #000000;*/
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid #BEC6D1; 
+}
+
+#table2 {
+    display: none;
+}
+
+#dividerSection2 {
+    height: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid #6C7E95; 
+}
+
+#dividerSection3 {
+    height: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-bottom: 4px solid #30496B; 
+}
+
+#runningStart {
+    height: 450px;
+    width: 100%;  
+    clear: both;
+}
+
+#runningStartleft p a{
+    text-decoration: none;
+}
+
+#runningStart h1 {
+       color: #003366;
+}
+
+#runningStartleft {
+	display: inline-block;
+    width: 50%;
+    height: 400px;
+	float: left;  
+}
+
+#runningStartright {
+    display: inline-block;
+    background-image: url("img/runningStart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 48%;
+    height: 400px;
+	max-height: 100%;
+	max-width: 100%;	
+    margin: 1%;
+	float: right;
+    border: 2px solid #000000;
+}
+
+#niuPartnership {
+    height: 300px;
+    width: 100%;
+    clear: both;
+    color: #003366;
+}
+
+#niuPartnership h1 {
+    text-align: center;
+}
+
+#niuPartnershipleft {
+    background-image: url("img/pic45.jpg");
+    background-repeat: no-repeat;
+    height:15vw;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 1%;
+	width: 45%;
+	float: left;
+    border: 2px solid #000000;
+
+}
+
+#niuPartnershipright {
+    height: 300px;
+    width: 52%;
+	float: right;
+}
+
+#niuPartnershipright a {
+    text-decoration: none;
+}
+
+#mathLab {
+    height: 470px;
+    width: 100%;  
+    clear: both;
+}
+
+#mathLableft a {
+    text-decoration: none;
+}
+
+#mathLab h1 {
+       color: #003366;
+}
+
+#mathLableft {
+	display: inline-block;
+    width: 50%;
+    height: 400px;
+	float: left;  
+}
+
+#mathLabright {
+    display: inline-block;
+    background-image: url("img/pic43.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 48%;
+    height: 400px;	
+    margin: 1%;
+	float: right;
+    border: 2px solid #000000;
+}
+
+#trioServices {
+    height: 450px;
+    width: 100%;
+    clear: both;
+    color: #003366;
+
+}
+
+#trioServicesright a {
+    text-decoration: none;
+}
+
+#trioServices h1 {
+    text-align: center;
+}
+
+#trioServicesleft {
+    background-image: url("img/picTrio.jpg");
+    background-repeat: no-repeat;
+    height: 15vw;
+    background-size: cover;
+    margin: 0;
+	width: 45%;
+	float: left;
+
+}
+
+#trioServicesright {
+    height: 300px;
+    width: 52%;
+	float: right;
+}
+
+#starlightTheatre {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    color: #003366;
+
+}
+
+#starlightTheatre h1 {
+    text-align: center;
+}
+
+#starlightTheatreleft {
+    background-image: url("img/starlight.jpg");
+    background-repeat: no-repeat;
+    height: 25vw;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0;
+	width: 45%;
+	float: left;
+    border: 2px solid #000000;
+
+}
+
+#starlightTheatreright {
+    height: 450px;
+    width: 52%;
+	float: right;
+    text-align: left;
+    padding-right: 15px;
+    margin-top: -20px;
+}
+
+#starlightTheatreright a{
+    text-decoration: none;
+}
+
+#gym {
+    height: 550px;
+    width: 100%;  
+    clear: both;
+}
+
+#gymLeft {
+    margin-top: -15px;
+    display: inline-block;
+    width: 45%;
+    height: 550px;
+	float: left;  
+    overflow:hidden;
+}
+
+#gymLeft a {
+     text-decoration: none;
+}
+
+#gymRight {
+   background-image: url("img/pic48.jpg");
+   background-repeat: no-repeat;
+   height: 450px;
+   background-size: cover;
+   border-radius: 10px;
+   margin: 0;
+   width: 45%;
+   float: right;
+    border: 2px solid #000000;
+
+}
+
+
+#mobile {
+     display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+#bottomHero {
+    height: 200px;
+    background-image: url(img/pic47.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%; 
+    height: 45vw;
+    clear: both;
+}
+
+#newsLetterModule{
+    clear: both;
+    text-align: left;
+    height: 300px;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    background-image: radial-gradient(#FFFFFF, #003366 );
+    border-radius: 10px;
+}
+
+form {
+    display: inline-block;
+    height: 30vw;
+}
+input[type = "submit"] {
+    margin-left: 17em;
+}
+td {
+    padding-right: 50px;
+}
+caption {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#header1 {
+     padding-right: 50px;   
+}
+#header2 {
+     margin-right: 50px;   
+}
+#header3 {
+     margin-right: 50px;   
+}
+
+table {
+      font-size: 1.3em;
+    
+}
+
+#contactModule {
+   width: 95%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 200px;
+   border: 2px groove #000000;
+   border-radius: 10px;
+   background-color: #CCCCCC;   
+   padding-left: 10px;
+   padding-top: 10px;
+}
+
+#contactModule h3 {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+footer span{
+    font-size: 0.6em;
+    font-weight: 400;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer{
+    clear: both;
+    border-top-style: groove;
+    margin: 20px;
+    color:#FFFFFF;
+    background-color: #000000;
+    padding-top: 15px;
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+    font-size: 1em;
+    padding-left: 2px;
+    padding-left: 2px;
+	height: 10vw;    
+}
+
+footer h1 {
+    color: #FFFFFF;
+}
+
+#gallery h1 {
+    text-align: center;
+}
+
+#imageGalleryHeader {
+    padding-top: 5px;
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+#gallery { 
+    clear: both;
+    width: 100%;
+    position: relative;
+    height: 900px;
+}
+
+#gallery ul {list-style-type: none;
+    width: 400px; 
+    margin-left: 30px;
+}
+
+#gallery ul img {
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+}
+
+#gallery ul span img {
+    width: 700px;
+    height: 600px;
+}
+
+#gallery li { display: inline; 
+     float: left;
+	 padding: 10px; 
+}
+
+#gallery img { border-style: none;
+}
+
+#gallery a { text-decoration: none;
+             font-style: italic;  
+             color: #eaeaea; 
+}
+
+#gallery span { 
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition:  opacity 3s ease-in-out; 
+    font-size: 150%;
+    font-weight: 700;
+    color: #000000;
+}
+
+#gallery a:hover span {     
+			position: absolute;
+			top: 25px;
+			left: 415px; 
+			text-align: center; 
+            opacity: 1; 
+}
+
+figure {    
+    position: absolute;
+    top: 10px;
+    left: 375px; 
+    text-align: center; 
+    opacity: .25;
+    ;
+}
+
+label{ 
+    float: left;
+    display: block;
+    text-align: right; 
+    width: 120px; 
+    padding-right: 10px;}
+
+input, textarea {display: block;
+				 margin-bottom: 20px;}
+input [type="submit"] {margin-left: 130px;} 
+
+#gallery {
+		  display: inline-block;
+		  }
+
+
+@media only screen and (max-width: 1500px) and (min-width: 1243px) {
+  
+    #studentStory1 {
+        width: 100%;
+        height: 550px;
+        margin-bottom: 0;
+    }
+    
+    nav {
+        padding-bottom: 50px;
+    }
+    
+    #mathLab {
+        height: 500px;
+    }
+     
+    #trioServices {
+        height: 525px;        
+        width: 100%;
+    }
+    
+    #gallery figure {
+        width: 500px;
+        height: 425px;
+    }
+    
+    figure {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1243px) and (min-width: 1000px) {
+    .container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    nav {
+        padding-bottom: 50px;
+    }
+    
+    #studentStory1 {
+        width: 100%;
+        height: 655px;
+        margin-bottom: 0;
+    }
+    
+    #studentStory2 {
+        width: 100%;
+        height: 400px;
+    }
+    
+    #studentStory2left {
+        height: 355px;
+    }
+    
+    #runningStart {
+        height: 500px;
+    }
+    
+    #studentStory2 {
+        width: 100%;
+        height: 475px;
+        margin-bottom: 0;
+    }
+    
+    #niuPartnership {
+        width: 100%;
+        height: 395px;
+    }
+    
+    #trioServices {
+        height: 600px;        
+        width: 100%;
+    }
+    
+    #gym {
+        height: 650px;
+    }
+    
+    #starlightTheatre {
+       height: 575px; 
+    }
+    
+   
+    #gallery {
+        height: 1700px;
+        position: inherit;
+        margin-left: 180px;
+  
+    }
+    
+    #gallery ul {
+        width: 800px;
+        
+    }
+    
+    #gallery ul img {
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    
+    figure {
+        display: none;
+    }
+    
+    #mathLab {
+        height: 500px;
+    }
+    
+}
+
+@media only screen and (max-width: 64em) {
+      nav ul li {
+        padding: 2.5px;
+        border-bottom: 3px solid #FFFFFF;
+    }
+     nav ul li2 {
+        padding: 2.5px;
+        border-bottom: 3px solid #FFFFFF;
+    }
+    body {
+        margin: 0;
+        font-size: 0.9em;
+    }
+    
+    #wrapper {
+        margin-top: 10em;
+        min-width: 0;
+        width: 95%;
+        box-shadow: none;
+        border: none;
+    }
+      
+    #studentStory1 {
+        width: 100%;
+        height: 670px;
+        margin-bottom: 0;
+    }
+    
+    #studentStory2 {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 0;
+    }
+      
+    h1 {
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+    
+    #niuPartnership {
+        width: 100%;
+        height: 375px;
+    }
+    
+    
+    #trioServices {
+       height: 200px; 
+    }
+    
+    #trioServicesleft {
+      background-image: none; 
+      width: 0px;
+        height: 0;
+    }
+    
+    
+    #trioServicesright {
+        height: 300px;
+        width: 100%;
+    }
+    
+    nav a:hover {
+       background-color: transparent;
+       text-decoration: none;
+    }
+    
+    nav {
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding-bottom: 0.2em;
+    }
+    
+    figure {
+        display: none;
+    }
+    
+    #gallery {
+        height: 1700px;
+        position: inherit;
+        margin-left: 40px;
+  
+    }
+    
+    #gallery ul {
+        width: 800px;
+        
+    }
+    
+    #gallery ul img {
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+      
+    nav li {
+        display: block;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        width: 100%;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        width: 100%;
+        padding-left: 0;
+        font-size: 1.2em;
+        display: inline-grid;    
+    }
+    
+    #table2 {
+        display: none;
+    }
+    
+    nav a {
+       text-align: center;
+       width: 100%;
+       font-size: 1.1em;
+    }
+    
+    #gym {
+        height:750px;
+    }
+    #gymLeft {
+        height: 700px;
+    }
+    
+    #starlightTheatre {
+       height: 800px; 
+    }
+    
+    footer {
+        padding-top: 5px;
+    }
+    
+    footer span{
+        font-size: 0.4em;
+        font-weight: 400;
+        padding-left: ;
+        padding-right: ;
+    }
+	   
+}
+
+@media only screen and (max-width: 900px) and (min-width: 590px) {
+      nav ul li {
+        padding: 2.5px;
+        border-bottom: 3px solid #FFFFFF;
+    }
+     nav ul li2 {
+        padding: 2.5px;
+        border-bottom: 3px solid #FFFFFF;
+    }
+    .container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #studentStory1 {
+        width: 100%;
+        height: 700px;
+        margin-bottom: 0;
+    }
+    
+    #studentStory2 {
+        width: 100%;
+        height: 425px;
+        margin-bottom: 0;
+        clear: left;
+    }
+    
+    #studentStory2left {
+        margin-top: -10px;
+    }
+    
+    #imgStudentStory2 {
+        width: 100px;
+        height: 200px;
+    }
+    #runningStart {
+        height: 500px;
+    }
+    
+    #niuPartnership {
+        width: 100%;
+        height: 220px;
+    }
+    
+    
+    #niuPartnershipleft {
+      background-image: none; 
+      width: 0px;
+    }
+      
+    #niuPartnershipright {
+        margin-top: -155px;
+
+        height: 300px;
+        width: 100%;
+    }
+    
+    #mathLab {
+        width: 100%;
+        height: 575px; 
+    }
+    
+    #trioServices {
+        height: 200px; 
+    }
+    
+    #trioServicesleft {
+      background-image: none; 
+      width: 0px;
+    }
+      
+    #trioServicesright {
+        height: 300px;
+        width: 100%;
+    }
+    
+    #starlightTheatre {
+    height: 600px;
+    width: 100%;
+   }
+ 
+}
+
+
+@media only screen and (max-width: 37.5em) {
+    
+	#wrapper {
+        
+        margin-top: 12em;
+        min-width: 0;
+        width:100%;
+        box-shadow: none;
+        border: none;
+    }
+   
+	#titleHero{
+		font-size: 150%;
+       margin-top: -0.004px;
+	}
+    
+    .container1 {
+        margin-top: 25px;
+    }
+	
+    #divWelcomeParagraph {
+        height: 275px;
+        width: 100%;
+        color: #000000;
+        padding: 10px;
+    }
+    
+    #studentStory1 {
+        width: 100%;
+        height: 900px;
+        margin-bottom: 0;
+    }
+    
+    #studentStory1left {
+        display: none;
+        height: 0;
+        width: 0;
+    }
+    
+    #studentStory1right {
+        width: 100%;
+    }
+    
+    #studentStory2 {
+         height:425px;;
+    }
+    
+    #studentStory2left {
+        height: 0;
+        width: 100%;
+    }
+    
+    #studentStory2right {
+        margin-top: -600px;
+        float: none;
+        height: 200px;
+        width: 100%;
+    }
+    
+    nav select {
+        display: none;
+    }
+    
+    nav {
+        height: auto;
+        padding-bottom: 0.5em;
+        
+    }
+    
+    nav ul li {
+        padding: 2.5px;
+        border-bottom: 3px solid #FFFFFF;
+    }
+     nav ul li2 {
+        padding: 2.5px;
+        border-bottom: 3px solid #FFFFFF;
+    }
+    
+    nav a {
+       text-align: center;
+       width: 100%;
+       font-size: 2em;
+        
+    }
+    
+    nav a:hover {
+       background-color: transparent;
+       text-decoration: none;
+    }
+    
+     
+    #newsLetterModule input[type="email"]
+    {
+        width: 200px;
+    }
+    
+    #newsLetterModule input[type="submit"]
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #runningStart {
+        width: 100%;
+        height: 300px;
+    }
+    
+    #runningStartleft {
+        width: 100%;
+        height: 275px;
+    }
+    
+    #runningStartright {
+        display: none;
+        height: 0;
+    }
+    
+	 #niuPartnership {
+         margin-top: -200px;
+         height: 600px;
+    }
+	
+    
+    #niuPartnershipleft {
+        height: 40vw;
+        float: none;
+        width: 100%;
+		margin-bottom: 10px;
+		
+    }
+    
+    #niuPartnershipright {
+        margin-top: 0px;
+        height:400px;
+        width: 100%;
+    }
+	
+    #mathLab {
+        width: 100%;
+        height: 910px;
+    }
+    
+    #mathLableft {
+        width: 100%;
+        height: 410px;
+
+    }
+    
+    #mathLabright{
+        width: 100%;
+		margin-top: 30px;
+    }
+    
+    #trioServices {
+        height: 650px;        
+        width: 100%;
+    }
+	
+	
+	#gym {
+         height: 770px;
+		 width: 100%;
+    }
+    
+    #gymLeft {
+        height: 670px;
+        width: 100%;
+    }
+    
+    #gymRight {
+        display:none;
+    }
+    
+    #starlightTheatre {
+        margin-top: -50px;
+        height: 875px;
+        width: 100%;
+    }
+    #starlightTheatreleft {
+        float: none;
+        height: 200px;
+        width: 100%;
+    }
+    #starlightTheatreright {
+        margin-top: 5px;
+        width: 100%;
+    }
+    
+    #gallery {
+        height: 1800px;
+        position: inherit;
+        display: inline-block;
+    }
+    
+    
+    #gallery ul {
+        list-style-type: none;
+        width: 200px; 
+        margin-left: 45px;
+    }
+    
+    #gallery ul img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    #bottomHero {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    figure {
+        display:none;
+    }
+    
+    #table1 {display: none;}
+    
+    #table2 {
+        display: inline-block;
+    }
+          
+	#contactModule{
+		height: 200px;
+	}
+	
+    footer {
+        padding-top: 0;
+		height: 31vw;
+    }
+    
+    footer h1{
+        margin-top: -5px;
+        
+    }
+
+    footer span{
+        
+        display: inline-block;
+        font-size: 0.4em;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
